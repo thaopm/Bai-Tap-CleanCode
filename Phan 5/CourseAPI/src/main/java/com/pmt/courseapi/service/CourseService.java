@@ -32,7 +32,7 @@ public class CourseService {
 		this.sortCourseStrategy = sortCourseStrategy;
 	}
 
-//	@Cacheable(value = "courses", key = "#courseId")
+	@Cacheable(value = "courses")
 	@Transactional(readOnly = true)
 	public List<CourseResDto> getCourses(CourseReqSearchDto courseDto) {
 		String keyword = courseDto.getKeyword();
