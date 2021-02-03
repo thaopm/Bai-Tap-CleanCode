@@ -1,6 +1,6 @@
-package com.pmt.graphiceditor.logic;
+package com.pmt.graphiceditor.file;
 
-public interface iFile {
+public interface IFile {
 	
 	public void openFile(String fileName);
 

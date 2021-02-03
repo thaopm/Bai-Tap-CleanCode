@@ -1,5 +1,6 @@
 package com.postmanagement.entity;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Post {
@@ -15,9 +16,20 @@ public class Post {
 	private List<Comment> comments;
 
 	public Post(String title, String content, User user) {
+		comments = new ArrayList<Comment>();
 		this.title = title;
 		this.content = content;
 		this.user = user;
+	}
+	
+	void addComment(Comment comment) {
+		comments.add(comment);
+		System.out.println("Comment added");
+	}
+
+	public void deleteComment(Comment comment) {
+		comments.remove(comment);
+		System.out.println("Comment deleted");
 	}
 
 	public long getId() {

@@ -1,6 +1,5 @@
 package com.postmanagement.entity;
 
-
 public class Comment {
 	private long id;
 	private String title;
@@ -8,8 +7,10 @@ public class Comment {
 	private Post post;
 	private User user;
 
-	public Comment(String title) {
+	public Comment(String title, Post post, User user) {
 		this.title = title;
+		this.post = post;
+		this.user = user;
 	}
 
 	public long getId() {

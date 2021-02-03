@@ -1,8 +1,6 @@
 package com.pmt.graphiceditor.file;
 
-import com.pmt.graphiceditor.logic.iFile;
-
-public class Jpg implements iFile {
+public class Jpg implements IFile {
 
 	public static final String EXTENSION = "jpg";
 	private String fileOpenned;

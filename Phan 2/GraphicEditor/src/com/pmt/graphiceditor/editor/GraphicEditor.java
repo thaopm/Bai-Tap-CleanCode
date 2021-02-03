@@ -4,15 +4,16 @@ import com.pmt.graphiceditor.file.Bmp;
 import com.pmt.graphiceditor.file.Gif;
 import com.pmt.graphiceditor.file.Jpg;
 import com.pmt.graphiceditor.file.Png;
-import com.pmt.graphiceditor.logic.iFile;
+import com.pmt.graphiceditor.file.IFile;
+import com.pmt.graphiceditor.logic.FileLogic;
 
 public class GraphicEditor {
 
-	private iFile file;
+	private IFile file;
+	private FileLogic fileLogic = new FileLogic();
 
 	public void openFile(String fileName) throws Exception {
-		String extension = fileName.substring(fileName.length() - 3);
-		switch (extension) {
+		switch (fileLogic.getFileExtension(fileName)) {
 		case "bmp":
 			file = new Bmp();
 			break;
@@ -30,12 +31,20 @@ public class GraphicEditor {
 		}
 		file.openFile(fileName);
 	}
-	
+
 	public void parseFile() {
-		file.parseFile();
+		if (file != null) {
+			file.parseFile();
+		} else {
+			System.out.println("File is not opened");
+		}
 	}
 
 	public void saveFile() {
-		file.saveFile();
+		if (file != null) {
+			file.saveFile();
+		} else {
+			System.out.println("File is not opened");
+		}
 	}
 }

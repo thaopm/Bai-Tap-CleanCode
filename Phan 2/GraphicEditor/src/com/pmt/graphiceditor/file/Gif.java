@@ -1,8 +1,6 @@
 package com.pmt.graphiceditor.file;
 
-import com.pmt.graphiceditor.logic.iFile;
-
-public class Gif implements iFile {
+public class Gif implements IFile {
 
 	public static final String EXTENSION = "gif";
 	private String fileOpenned;
