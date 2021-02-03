@@ -36,7 +36,13 @@ Gõ link đến mã nguồn bài này vào đây
 
 
 ## Phần 3: Thiết kế CSDL Quan hệ theo đặc tả
-![alt text](https://www.zooplus.fr/magazine/wp-content/uploads/2018/02/shiba-inu.jpg)
+- Quan hệ giữa user và teacher: quan hệ 1 - 1
+- Quan hệ giữa user và student: quan hệ 1 - 1
+- Quan hệ giữa course và teacher: quan hệ n - 1
+- Quan hệ giữa course và student: quan hệ n - n
+
+
+![alt text](https://github.com/thaopm/CleanCodeHomework/blob/main/Phan%203/ERD.png)
 
 ## Phần 4: Thiết kế RESTful API
    Link đến mã nguồn:
