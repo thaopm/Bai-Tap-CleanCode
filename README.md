@@ -86,21 +86,21 @@ Gõ link đến mã nguồn bài này vào đây
 15. Chúng ta nên sử dụng query parameter cho những trường hợp nào?
 - D. Cả 3 đáp án trên
 16. Các interface/class có nhiệm vụ thao tác với cơ sở dữ liệu được đặt ở layer nào?
-- A. Service
+- B. Repository
 17. Các bạn đã được tìm hiểu mấy phương pháp đánh version cho RESTful API trong khóa học?
 - D. 4
 18. Trong Spring Framework, phương pháp xử lý lỗi nào dưới đây cho phép chúng ta xử lý lỗi ở mức toàn ứng dụng (global)?
 - A. Sử dụng @ControllerAdvice và @ExceptionHandler
 19. Để thông báo cho người quản trị hệ thống biết một chức năng đã gặp lỗi, chúng ta nên sử dụng log level nào?
--
+- C. ERROR
 20. Để cảnh báo việc tiến trình có thể không chạy đúng với logic, nhưng ứng dụng vẫn có thể tiếp tục, chúng ta nên sử dụng log level nào?
--
+- B. WARN
 21. Có phải method được đánh dấu annotation @Cacheable luôn được thực thi mỗi khi RESTful API được gọi?
 - A. Có
 22. Anti-pattern Jaywalking phù hợp trong trường hợp nào?
 - B. Cần lưu một danh sách các phần tử dưới dạng phân cách nhau bởi ký tự đặc biệt và không cần truy vấn từng phần tử.
 23. Đâu không phải là giải pháp phù hợp để thay thế cho anti-pattern Multi-column Attributes? Giả sử tôi cần lưu các tag của một article.
-- C. Tạo một bảng riêng để lưu các tag của article.
+- B. Lưu giá trị của các tag vào N cột trong bảng article.
 24. Nếu sử dụng anti-pattern Entity-Value-Attribute, giả sử đối tượng có 5 thuộc tính, vậy tôi cần thực hiện tất cả bao nhiêu phép JOIN để lấy đủ thông tin của 5 thuộc tính?
 - A. 1
 25. Tree model nào không dễ để query child node ngay dưới?
