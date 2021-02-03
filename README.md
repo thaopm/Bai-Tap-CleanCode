@@ -8,7 +8,7 @@
    - Mục tiêu 2: Để gia tăng giá trị cho công việc
    - Mục tiêu 3: Để đem lại chất lượng và sự dễ hiểu khi đọc
    - Mục tiêu 4: Để người khác có thể dễ dàng tìm và hiểu được
-   - Mục tiêu 5: Để tiết kiệm thời 
+   - Mục tiêu 5: Để tiết kiệm thời gian bảo trì, mở rộng chương trình
    
 2. Đáp án của tôi là team C bởi vì:
    - Lý do 1: Nếu theo team A, không áp dụng clean code ngay từ đầu thì sau này sẽ mất rất nhiều thời gian cho việc maintain, thậm chí có thể phải sửa lại toàn bộ vì các thành viên trong team code không thống nhất với nhau.
@@ -24,15 +24,15 @@
    - Ta nên tách riêng 1 function tính số năm làm việc thay vì truyền ngày bắt đầu làm việc rồi mới tính ra số năm làm việc trong function tính lương 
    
 5. Link đến mã nguồn:
-   https://github.com/thaopm/CleanCodeHomework/tree/main/Phan%201/PostManagement
+   - https://github.com/thaopm/CleanCodeHomework/tree/main/Phan%201/PostManagement
 
 ## Phần 2: OOP và SOLID
 ### 1. Hãy lập trình Java để thực hiện thiết kế như hình vẽ
    Link đến mã nguồn:
-   https://github.com/thaopm/CleanCodeHomework/tree/main/Phan%202/GraphicEditor
+   - https://github.com/thaopm/CleanCodeHomework/tree/main/Phan%202/GraphicEditor
 
 ### 2. Composition over Inheritance và DI
-Gõ link đến mã nguồn bài này vào đây
+   Chưa hoàn thành
 
 
 ## Phần 3: Thiết kế CSDL Quan hệ theo đặc tả
@@ -46,11 +46,11 @@ Gõ link đến mã nguồn bài này vào đây
 
 ## Phần 4: Thiết kế RESTful API
    Link đến mã nguồn:
-   https://github.com/thaopm/CleanCodeHomework/tree/main/Phan%204/CourseAPI
+   - https://github.com/thaopm/CleanCodeHomework/tree/main/Phan%204/CourseAPI
 
 ## Phần 5: Lập trình Restful API
    Link đến mã nguồn:
-   https://github.com/thaopm/CleanCodeHomework/tree/main/Phan%205/CourseAPI
+   - https://github.com/thaopm/CleanCodeHomework/tree/main/Phan%205/CourseAPI
 
 ## Trắc nghiệm
 1. Điều nào không đúng khi nói về Design Pattern?
@@ -58,8 +58,6 @@ Gõ link đến mã nguồn bài này vào đây
 2. Các OOP Design Pattern được chia làm mấy nhóm?
 - B.3
 3. Các design pattern của nhóm Behavioral pattern có đặc điểm nào dưới đây?
-- A. Quan tâm đến cách các lớp và các đối tượng được tổ chức để trở thành một cấu trúc lớn hơn.
-- B. Cung cấp các cơ chế khởi tạo đối tượng khác nhau, làm tăng tính linh hoạt và tái sử dụng code.
 - D. Quan tâm đến cách giao tiếp giữa các lớp và các đối tượng.
 4. Trong trường hợp client muốn khởi tạo một đối tượng mà không cần quan tâm logic khởi tạo đối tượng hoặc không biết rõ lớp của đối tượng thì chúng ta nên áp dụng design pattern nào đã được học?
 - C. Factory Method
