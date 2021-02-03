@@ -17,11 +17,4 @@ public class Student extends User {
 
 	private int year;
 
-	@ManyToMany
-	@JoinTable(
-	  name = "course_student", 
-	  joinColumns = @JoinColumn(name = "student_id"), 
-	  inverseJoinColumns = @JoinColumn(name = "course_id"))
-	private Set<Course> courses;
-
 }

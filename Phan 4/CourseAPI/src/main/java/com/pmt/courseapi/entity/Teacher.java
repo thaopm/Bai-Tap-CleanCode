@@ -17,7 +17,4 @@ public class Teacher extends User {
 
 	private int experiences;
 
-	@OneToMany(mappedBy = "teacher")
-	private Set<Course> courses;
-
 }

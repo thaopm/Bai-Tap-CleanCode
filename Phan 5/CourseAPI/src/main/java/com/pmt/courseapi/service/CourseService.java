@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -39,24 +40,6 @@ public class CourseService {
 		String sortBy = courseDto.getSortBy();
 
 		List<Course> courses = new ArrayList<Course>();
-
-//		StringBuilder query = new StringBuilder();
-//		query.append("SELECT c.* FROM course c ");
-//		if (keyword != null) {
-//			query.append("WHERE c.name LIKE '%");
-//			query.append(keyword);
-//			query.append("%' ");
-//		}
-//		if (sortBy != null) {
-//			if (CourseSortType.name.toString().equals(sortBy)) {
-//				setSortCourseStrategy(new SortCourseByNameStrategy());
-//			} else if (CourseSortType.opened.toString().equals(sortBy)) {
-//				setSortCourseStrategy(new SortCourseByOpenedStrategy());
-//			}
-//			query.append("ORDER BY ");
-//			query.append(sortCourseStrategy.getSort());
-//		}
-//		courses = courseRepository.findAllByName(query.toString());
 
 		if (sortBy == null) {
 			if (keyword == null) {
