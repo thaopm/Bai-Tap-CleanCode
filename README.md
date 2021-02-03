@@ -36,6 +36,7 @@ Gõ link đến mã nguồn bài này vào đây
 
 
 ## Phần 3: Thiết kế CSDL Quan hệ theo đặc tả
+![alt text](https://www.zooplus.fr/magazine/wp-content/uploads/2018/02/shiba-inu.jpg)
 
 ## Phần 4: Thiết kế RESTful API
    Link đến mã nguồn:
